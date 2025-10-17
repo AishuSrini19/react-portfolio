@@ -1,45 +1,51 @@
 import React from "react";
 import { Box, Card, CardContent, CardMedia, Typography } from "@mui/material";
-
+import avatar from "../assets/avatar.jpg";
+import nurse from "../assets/nurse.jpg";
+import codeGeneration from "../assets/code-generation.jpg"; 
+import delta from "../assets/delta.jpg";
+import logistics from "../assets/logistics.jpg";
+import learning from "../assets/learning.jpg";
+import elder from "../assets/elder.jpg";    
 const projects = [
   {
     title: "Virtual Avatar",
-    image: "/src/assets/avatar.jpg",
+    image: avatar,
     description:
       "Built an interactive virtual avatar using Google Cloud Vertex AI, React, and Three.js, with Rhubarb for lip-sync and Node.js for voice detection and real-time AI-driven interactions.",
   },
   {
     title: "Nurse Assistant",
-    image: "/src/assets/nurse.jpg",
+    image: nurse,
     description:
       "Developed an AI-powered Nurse Assistant using GCP to summarize patient history, set medicine reminders, and analyze X-rays, improving shift handovers and patient care efficiency.",
   },
   {
     title: "Code Generation Portal",
-    image: "/src/assets/code-generation.jpg",
+    image: codeGeneration,
     description:"Built an automated Code Generation Portal using React, Redux, and Node.js that generates project artifacts, code, and test scripts, and deploys applications to GCP with seamless JIRA integration.",
   },
   {
     title: "Delta Airlines",
-    image: "/src/assets/delta.jpg",
+    image: delta,
     description:
       "Designed, developed, and maintained Delta Airlines’ Lobby and Gate Agent Modules, handling end-to-end feature implementation and system enhancements. Delivered Change Requests (CRs) based on functional requirements to improve passenger processing, check-in efficiency, and gate operations.",
   },
   {
     title: "Microsoft BOHS Logistics Portal",
-    image: "/src/assets/logistics.jpg",
+    image: logistics,
     description:
       "Developed a Logistics Management Portal for Microsoft’s backend operations using React, Redux, and Saga to efficiently track packages, shipments, and inventory. The system streamlines logistics workflows, provides real-time tracking updates, and enhances operational visibility across teams.",
   },
   {
     title: "AI-Powered Interactive Learning and Streaming Platform",
-    image: "/src/assets/learning.jpg",
+    image: learning,
     description:
       "Developed an AI-powered online learning and streaming platform with agentic agents that interact with students to provide subject-specific guidance through real-time Q&A. After each session, the system auto-generates a 1-minute summary video and delivers a quiz-based score to reinforce learning and engagement.",
   },
   {
     title:"AI-Powered Virtual Care Companion for Alzheimer’s Patients",
-    image:"/src/assets/elder.jpg",
+    image:elder,
     description:"Developed an AI Care Companion for Alzheimer’s patients, providing empathetic interaction and daily assistance by reminding medications, encouraging exercises, and engaging in conversations about family and personal memories to offer companionship and cognitive support.",
   }
 ];

@@ -1,25 +1,42 @@
 import React from "react";
 import { Box, Card, CardContent, Typography } from "@mui/material";
-
+import reactimg from '../assets/react.jpg';
+import reduximg from '../assets/Redux.png';
+import reduxSaga from '../assets/redux-saga.png';  
+import nodeimg from '../assets/node.png';  
+import javascriptimg from '../assets/javascript.png';
+import htmlimg from '../assets/html.png';
+import cssimg from '../assets/css.png';
+import typescriptimg from '../assets/typescript.png'; 
+import gitimg from '../assets/git.png';
+import figmaimg from '../assets/figma.jpg';
+import azureimg from '../assets/Azure-DevOps-Logo.png';
+import vscodeimg from '../assets/Visual_Studio_Code_icon.png';
+import confluenceimg from '../assets/Confluence-Emblem.png';
+import googlecloud from '../assets/googlecloud.png';
+import jiraimg from '../assets/Atlassian-Jira-Logo-Vector.png';
+import dockerimg from '../assets/docker.png';
+import canvaimg from '../assets/canva.jpg';
+import androidstudioimg from '../assets/Android_Studio_Logo_2024.png';  
 const skills = [
-  { name: "React", img: "/src/assets/react.jpg" },
-  { name: "Redux", img: "/src/assets/Redux.png" },
-  { name: "Redux-Saga", img: "/src/assets/redux-saga.png" },
-  { name: "JavaScript", img: "/src/assets/javascript.png" },
-  { name: "HTML5", img: "/src/assets/html.png" },
-  { name: "CSS3", img: "/src/assets/css.png" },
-  { name: "TypeScript", img: "/src/assets/typescript.png" },
-  { name: "Node.js", img: "/src/assets/node.png" },
-  { name: "Git / GitHub", img: "/src/assets/git.png" },
-  { name: "Figma", img: "/src/assets/figma.jpg" },
-  { name: "Azure DevOps", img: "/src/assets/Azure-DevOps-Logo.png" },
-  { name: "Visual Studio", img: "/src/assets/Visual_Studio_Code_icon.png" },
-  { name: "Confluence", img: "/src/assets/Confluence-Emblem.png" },
-  { name: "Google Cloud", img: "/src/assets/googlecloud.png" },
-  { name: "JIRA", img: "/src/assets/Atlassian-Jira-Logo-Vector.png" },
-  { name: "Docker", img: "/src/assets/docker.png" },
-  { name: "Canva", img: "/src/assets/canva.jpg" },
-  { name: "Android Studio", img: "/src/assets/Android_Studio_Logo_2024.png" },
+  { name: "React", img: reactimg },
+  { name: "Redux", img: reduximg },
+  { name: "Redux-Saga", img: reduxSaga },
+  { name: "JavaScript", img: javascriptimg },
+  { name: "HTML5", img: htmlimg },
+  { name: "CSS3", img: cssimg },
+  { name: "TypeScript", img: typescriptimg },
+  { name: "Node.js", img: nodeimg },
+  { name: "Git / GitHub", img: gitimg },
+  { name: "Figma", img: figmaimg },
+  { name: "Azure DevOps", img: azureimg },
+  { name: "Visual Studio", img: vscodeimg },
+  { name: "Confluence", img: confluenceimg },
+  { name: "Google Cloud", img: googlecloud },
+  { name: "JIRA", img: jiraimg },
+  { name: "Docker", img: dockerimg },
+  { name: "Canva", img: canvaimg },
+  { name: "Android Studio", img: androidstudioimg },
 ];
 
 const Skills: React.FC = () => {

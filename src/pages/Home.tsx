@@ -1,10 +1,10 @@
 import React from "react";
 import { Box, Button, Typography, IconButton } from "@mui/material";
-import { LinkedIn, GitHub, Twitter } from "@mui/icons-material";
+import { LinkedIn } from "@mui/icons-material";
 import profilePic from "../assets/Crop_face.jpg"; // replace with your image
 
 const Home: React.FC = () => {
-    const navItems = ["Home", "About Me", "Projects", "Skills", "Contact"];
+    //const navItems = ["Home", "About Me", "Projects", "Skills", "Contact"];
 
   return (
    <Box

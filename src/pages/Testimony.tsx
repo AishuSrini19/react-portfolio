@@ -31,6 +31,13 @@ const testimonials: Testimonial[] = [
       "I had the opportunity to work with Aishwarya on a challenging engagement involving backend facility operations. She delivered an excellent integrated solution with great ownership and technical skill. Truly commendable work!",
     img: "/src/assets/testimonials/monica.png",
   },
+   {
+    name: "Dhirendra Srivastava",
+    role: "Generative AI & CCAI Associate Manager",
+    comment:
+      "Working with Aishwarya was a delight — she quickly transforms ideas into pixel-perfect, responsive designs that truly elevate the user experience.Always eager to innovate, She contributes fresh ideas that enhance both design and performance. Her proactive approach makes a real difference in every project.",
+    img: "/src/assets/testimonials/monica.png",
+  },
 ];
 
 const Testimony: React.FC = () => {

@@ -53,19 +53,19 @@ const projects = [
 const Projects: React.FC = () => {
   return (
   <Box
-  sx={{
+   sx={{
     width: "100vw",
-    height: "96vh", // fills entire viewport
+    height:'96vh',
+    minHeight: "calc(100vh - 70px)",
     backgroundColor: "#111",
     color: "#fff",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    padding: "6rem 2rem 4rem 2rem",
-    marginTop: "70px", // leave room for navbar
-    overflowY: "auto", // 🟢 enables vertical scrolling only here
-    overflowX: "hidden",
+    padding: "7rem 2rem 3rem", // 🟢 top padding leaves room for navbar
     boxSizing: "border-box",
+    overflowY: "scroll",
+    overflowX: "hidden",
   }}
 >
       {/* Title */}

@@ -6,6 +6,7 @@ import ContactPopup from "../pages/ContactPopup";
 const Navbar: React.FC = () => {
   const location = useLocation();
   const [openContact, setOpenContact] = React.useState(false);
+ const isProjectsPage = location.pathname === "/projects";
 
   const navItems = [
     { label: "Home", path: "/" },
@@ -17,19 +18,24 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <Box
-        sx={{
-          position: "fixed",
-          top: 0,
-          right: 0,
-          left: 0,
-          display: "flex",
-          justifyContent: "flex-end",
-          alignItems: "center",
-          padding: "1.5rem 4rem",
-          zIndex: 1000,
-        }}
-      >
+     <Box
+  sx={{
+    position: "fixed",
+    top: 0,
+    left: 0,
+    right: 0,
+    height: "70px",
+    // backgroundColor: "#111",
+    zIndex: 2000, // ✅ ensures always above scroll
+    display: "flex",
+    justifyContent: "flex-end",
+    alignItems: "center",
+    padding: "1.5rem 4rem",
+     backgroundColor: isProjectsPage
+            ? "#111" // black for Projects
+            :''
+  }}
+>
         <Box sx={{ display: "flex", alignItems: "center", gap: "2rem" }}>
           {navItems.map((item) => (
             <Link key={item.path} to={item.path} style={{ textDecoration: "none" }}>

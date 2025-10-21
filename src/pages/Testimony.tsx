@@ -38,6 +38,20 @@ const testimonials: Testimonial[] = [
       "Working with Aishwarya was a delight — she quickly transforms ideas into pixel-perfect, responsive designs that truly elevate the user experience.Always eager to innovate, She contributes fresh ideas that enhance both design and performance. Her proactive approach makes a real difference in every project.",
     img: "/src/assets/testimonials/monica.png",
   },
+  {
+    name: "Mayank Nishesh",
+    role: "Google AI/ML Manager",
+    comment:
+      "Having Aishwarya on my team, where she consistently demonstrated exceptional ownership, technical depth, and a passion for innovation. She played a key role in driving several impactful initiatives, including top-ranked GenAI POD ideas and innovation showcases like Cloud Test Day.",
+    img: "/src/assets/testimonials/monica.png",
+  },
+  {
+    name: "Karthikeswari Vishnukumar",
+    role: "Packaged App Development Senior Analyst",
+    comment:
+      "Worked closely with Aishwarya on multiple React applications, and I was consistently impressed by her expertise with React and Redux. She has a great eye for building reusable components, managing state effectively, and ensuring smooth user experiences. Beyond her technical skills, she’s a fantastic collaborator—always open to feedback, sharing ideas, and helping teammates. I’d highly recommend her for any front-end role.",
+    img: "/src/assets/testimonials/monica.png",
+  },
 ];
 
 const Testimony: React.FC = () => {

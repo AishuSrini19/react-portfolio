@@ -124,8 +124,8 @@ const Home: React.FC = () => {
               "&:hover": { backgroundColor: "#ef3e36", color: "#fff" },
             }}
              component="a"
-  href="/Aishwarya_Resume_Frontend_Dev.pdf" // ✅ path from public folder
-  download="Aishwarya_Resume_Frontend_Dev.pdf" // ✅ forces download
+  href="/Aishwarya_Frontend_Dev_Resume.pdf" // ✅ path from public folder
+  download="Aishwarya_Frontend_Dev_Resume.pdf" // ✅ forces download
           >
             Download CV
           </Button>
